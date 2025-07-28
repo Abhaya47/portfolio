@@ -5,7 +5,6 @@
     display: block;
   }
 
-  
 }
 
 @media screen and (max-width: 600px) {
@@ -53,7 +52,6 @@ html,body{
   color: #2c2c2c;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
   font-size: 2em;
@@ -75,7 +73,7 @@ html,body{
 }
 
 #intro h1 {
-    border: 2px solid #8aa36b;
+    border: 2px solid #b5bbad;
     border-radius: 8px;
     color: #f3f3f3;
     font-weight: 700;

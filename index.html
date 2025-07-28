@@ -9,33 +9,33 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
-
 </head>
 <body>
-    <div id="fullpage">
-        <div class="side-nav vh-100">
-            <ul class="list">
-                <a href="#home"><li class="side"></li></a>
-                <a href="#accolades"><li class="side"></li></a>
-                <a href="#skills"><li class="side"></li></a>
-                <a href="#portfolio"><li class="side"></li></a>
-                <a href="#contact"><li class="side"></li></a>
-            </ul>
+        <div class="topnav" id="myTopnav">
+            <a href="#home">Home</a>
+            <a href="#expertise">Expertise</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contact">CONTACT</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
 
         <div id="home" class="section vh-100">
-            <div class="row mt-3">
-                <!-- <div class="col-md-2"></div> -->
+            <div class="row">
                 <div class="col-md-12" id="intro">
                     <h1 id="name">Abhaya Nepal</h1>
-                    <h3> Student / Developer</h3>
+                    <h3 id="title"> FULL STACK DEVELOPER</h3>
                 </div>
-                <!-- <div class="col-md-2"></div> -->
+            </div>
+            <div id="gittop" class="plogo"> 
+                <a href="https://github.com/Abhaya47"><img src="icons8-github-100.png"></a>
             </div>
         </div>
         
-        <div id="accolades" class="section vh-100">
+        <div id="Expertise">
             <div class="row mt-3 vh-100">
                     <h4>What I do</h4>
                 <div class="col-md-6" id="doing">
@@ -57,22 +57,26 @@
 
         <div id="skills" class="section vh-100">
             <div class="row vh-100">
-                    <h4>My skills</h4>
+                    <h4>MY SKILLS</h4>
                     <div class="col-md-2"></div>
                 <div class="col-md-8" id="pro">
-                    <div class="text-top">Web Design</div>
+                    <div class="text-top">REACT</div>
 					<div class="progress">
-						<div class="progress-bar probar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+						<div class="progress-bar probar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
 					</div>
-					<div class="text-top">Mobile Apps </div>
+                    <div class="text-top">PHP(Laravel)</div>
+					<div class="progress">
+						<div class="progress-bar probar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+					</div>
+                     <div class="text-top">DJANGO</div>
+					<div class="progress">
+						<div class="progress-bar probar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+					</div>
+					<div class="text-top">FLUTTER </div>
 					<div class="progress">
 						<div class="progress-bar probar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
 					</div>
-					<div class="text-top">AI</div>
-					<div class="progress">
-						<div class="progress-bar probar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-					</div>
-					<div class="text-top">HTLM5 &AMP; CSS</div>
+					<div class="text-top">HTML5 &AMP; CSS</div>
 					<div class="progress">
 						<div class="progress-bar probar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
 					</div>
@@ -81,88 +85,88 @@
             </div>
         </div>
 
-        <div id="portfolio" class="section vh-100">
+        <div id="portfolio" class="section">
             <div class="container">
-                <div class="row vh-100">
-                        <h2>PORTFOLIO</h2>
-                    <div class="col-md-3 port">
-                            <!-- <img src="portfolio-img2.jpg" class="img-fluid" alt="Responsive image"> -->
-                                <div class="portfolio-explain">
-                                    <h4>Web Design</h4>
-                                    <h6>Powerplaces</h6>
-                                    <small>REACT, DJANGO</small>
-                                    <a class="btn btn-outline-primary" href="https://github.com/Abhaya47/powerplaces_react" role="button"><h6>Project</h6></a>
-                                </div>
+                <h2>PORTFOLIO</h2>
+                <div class="row  d-flex align-items-stretch gy-4">
+                
+                <div class="col-md-6 port">
+                    <div class="portfolio-explain">
+                    <h4>Powerplaces</h4>
+                    <h6>A travel agency website using Flutter, Django, and Tailwind</h6>
+                    <p><small>REACT, DJANGO</small></p>
+                    <a class="btn btn-outline-primary" href="https://github.com/Abhaya47/powerplaces_react" role="button">View Project</a>
                     </div>
-                    <div class="col-md-3 port">
-                            <!-- <a href="https://github.com/Abhaya47/Major_backend"><img src="webapp.jpg" class="img-fluid" alt="Responsive image" style="overflow: hidden;"></a> -->
-                                <div class="portfolio-explain">
-                                    <h4>Web App</h4>
-                                    <h5>Equation Solver</h5>
-                                    <a class="btn btn-outline-primary" href="https://github.com/Abhaya47/Major_backend" role="button"><h6>Project</h6></a>
-                                </div>
+                </div>
+
+                <div class="col-md-6 port">
+                    <div class="portfolio-explain">
+                    <h4>NUTRICOACH</h4>
+                    <h6>A food recommendation mobile app in Flutter using Dart with Laravel (PHP) backend and Python for recommendations</h6>
+                    <p><small>FLUTTER, LARAVEL, PYTHON</small></p>
+                    <a class="btn btn-outline-primary" href="https://github.com/Abhaya47/Major_backend" role="button">View Project</a>
                     </div>
-                    <div class="col-md-3 port">
-                            <!-- <img src="phone.jpg"  class="img-fluid" alt="Responsive image" style="height: 100%;"> -->
-                                <div class="portfolio-explain">
-                                    <h4>Mobile App</h4></a>
-                                    <h5>Food Recommendation App in Flutter</h5>
-                                    <a href="https://github.com/Abhaya47/Major_backend"><img src="webapp.jpg" class="img-fluid" alt="Responsive image" style="overflow: hidden;"></a>
-                                </div>
+                </div>
+
+                <div class="col-md-6 port">
+                    <div class="portfolio-explain">
+                    <h4>GHAR BHADA</h4>
+                    <h6>An ongoing Next.js React project for advertising and renting rooms</h6>
+                    <p><small>NEXT.JS, REACT</small></p>
                     </div>
-                    
-                    <div class="col-md-3 port">
-                            <!-- <a href="https://github.com/Abhaya47/minor-project-"><img src="bg.jpeg" class="img-fluid" alt="Responsive image"></a> -->
-                                <div class="portfolio-explain">
-                                    <h4>AI</h4>
-                                    <h5>I've dabled with AI</h5>
-                                    <a class="btn btn-outline-primary" href="https://github.com/Abhaya47/minor-project-" role="button"><h6>Project</h6></a>
-                                </div>
+                </div>
+
+                <div class="col-md-6 port">
+                    <div class="portfolio-explain">
+                    <h4>EQUATION SOLVER</h4>
+                    <h6>A web app that accepts images of limit equations and solves them</h6>
+                    <p><small>PHP, PYTHON</small></p>
+                    <a class="btn btn-outline-primary" href="https://github.com/Abhaya47/minor-project-" role="button">View Project</a>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="section">
+            <div class="container">
+                <h4 class="section-title">Get In Touch</h4>
+                <div class="row justify-content-center">
+                    <div class="col-md-8 gy-4" id="form">
+                        <address class="contact-box">
+                        <p class="contact-title">
+                            If you feel like you have an opportunity for me, please feel free to reach out.
+                        </p>
+                        <p><i class="fa fa-phone contact-icon"></i> <span>9843800917</span></p>
+                        <p><i class="fa fa-envelope-o contact-icon"></i> <a href="mailto:abhayanepal.47@gmail.com"><span>abhayanepal.47@gmail.com</span></a></p>
+                        <p><i class="fa fa-map-marker contact-icon"></i> <span>Lalitpur, Nepal</span></p>
+                        </address>
+                    </div>
+
+                    <div class="col-md-8 text-center mt-4">
+                        <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/abhaya47/" target="_blank">
+                            <img src="icons8-linkedin-100.png" alt="LinkedIn" class="social-img">
+                        </a>
+                        <a href="https://github.com/Abhaya47" target="_blank">
+                            <img src="icons8-github-100.png" alt="GitHub" class="social-img">
+                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id="contact" class="section vh-100">
-			<div class="container">
-				<div class="row vh-100">
-                    <h4>Contact Info</h4>
-					<div class="col-md-6" id="form">
-						<address>
-							<p class="contact-title">CONTACT ME</p>
-							<p><i class="fa fa-phone"></i> My number is 9843800917</p>
-							<p><i class="fa fa-envelope-o"></i> abhayanepal.47@gmail.com</p>
-							<p><i class="fa fa-map-marker"></i> Nepal</p>
-						</address>
-					</div>
-					<div class="col-md-6" id="form">
-						<form method="post" action="#" onsubmit="onSubmit()">
-							<input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
-							<input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
-							<textarea name="message" rows="5" class="form-control" id="message" placeholder="Your Message"></textarea>
-							<input name="send" type="submit" class="form-control" id="send" value="SEND ME">
-						</form>
-					</div>
-					<div class="col-md-1"></div>
-                    <div class="row">
-                        <div class="col-md-6 plogo">
-                            <a href="https://www.linkedin.com/in/abhaya47/"><img src="icons8-linkedin-100.png"></a>                        
-                        </div>
-                        <div class="col-md-6 plogo"> 
-                            <a href="https://github.com/Abhaya47"><img src="icons8-github-100.png"></a>
-                        </div>
-                    </div>
-				</div>
-                
-			</div>
-		</div>
-    </div>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> -->
-    <script>
-        function onSubmit(){
-            alert("Sorry this Doesn't work RN");
-            event.preventDefault();
-        }
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        } 
     </script> 
 </body>
 </html>

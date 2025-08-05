@@ -83,7 +83,7 @@ html,body{
     background: rgb(255 255 255 / 25%);
     border-radius: 1000% 1000% 0 0;
     position: absolute;
-    width: 100%;
+    width: 200%;
     height: 12em;
     animation: wave 10s -3s linear infinite;
     transform: translate3d(0, 0, 0);
@@ -91,6 +91,7 @@ html,body{
     bottom: 0;
     left: 0;
     z-index: 0;
+    overflow: hidden;
 } */
 
 .wave:nth-of-type(2) {
@@ -142,16 +143,16 @@ html,body{
 }
 
 #intro h1 {
-    border: 2px solid #b5bbad;
-    border-radius: 8px;
+    /* border: 2px solid #b5bbad; */
+    /* border-radius: 8px; */
     color: #2c2b2b;
     font-weight: 700;
     letter-spacing: 8px;
     padding: 25px 40px;
     margin: 20px 0;
     font-size: 2.8rem;
-    background: rgba(255, 255, 255, 0.03);
-    box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+    /* background: rgba(255, 255, 255, 0.03); */
+    /* box-shadow: 0 0 12px rgba(255, 255, 255, 0.05); */
     text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 
